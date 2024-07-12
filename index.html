@@ -1,0 +1,113 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap" rel="stylesheet">
+</head>
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #D3CFC5;
+opacity: 0.9;
+background-size: 40px 40px;
+background-image:  repeating-linear-gradient(0deg, #000000, #000000 2px, #ffffff 2px, #ffffff);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #D3CFC5;
+}
+
+.logo {
+    height: 120px;
+}
+
+.title1 {
+    flex-grow: 1;
+    text-align: center;
+    font-size: 60px;
+    color: #383333;
+    font-family: "Newsreader", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+    
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.banner {
+    background-image: url('banner.png');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    margin-top: 6%;
+}
+
+.banner h1 {
+    color: white;
+    font-size: 3em;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+footer {
+    background-color: #251C14;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+</style>
+<body>
+    <header>
+        <img src="logo.png" alt="Logo" class="logo">
+        <h1 class="title1">News Buzz</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html"><b>• Home</b></a></li>
+                <li><a href="gallery.html"><b>• Gallery</b></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="banner">
+            <h1>Bringing The latest News at your fingertips!</h1>
+        </section>
+    </main>
+
+    <footer>
+        <p>E-Mail us at: <a href="mailto:info@newsletter.com">newsbuzz@gmail.com</a></p>
+        <p>Call us at: <a href="+1234567890">+911234567890</a></p>
+    </footer>
+</body>
+</html>
